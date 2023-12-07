@@ -1,10 +1,12 @@
 import Name from "./Name";
 
-const Person = () => {
+const Person = (props) => {
+  console.log(props);
   return (
     <div>
-      <h1>person</h1>
-      <Name />
+      <Name name={props.name} />
+      <img src={props.img} alt="cat" />
+      <p>Color:{props.color}</p>
     </div>
   );
 };
