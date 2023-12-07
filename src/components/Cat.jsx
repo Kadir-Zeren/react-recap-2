@@ -1,6 +1,6 @@
 import Name from "./Name";
 
-const Person = ({ name, img, color = "grey" }) => {
+const Cat = ({ name, img, color = "grey" }) => {
   return (
     <div>
       <Name name={name} />
@@ -10,4 +10,4 @@ const Person = ({ name, img, color = "grey" }) => {
   );
 };
 
-export default Person;
+export default Cat;
